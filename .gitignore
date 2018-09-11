@@ -1,0 +1,24 @@
+# shall NOT be ignored (preceded by '!'):
+!tempos_ruidos.txt
+#!dirs.txt
+
+#########################
+
+__pycache__/
+dist/
+dest/
+
+# weight files
+*.h5
+
+# model files
+*.json
+
+# data files
+*.dat
+
+# logs and other temp files
+*.out
+*.txt
+*.save
+*.pyc
